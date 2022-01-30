@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 public class Paddle {
 	public int paddleNumber;
-	public int x, y, width = 50, height = 250;
+	public int x, y, width = 15, height = 130;
 	public int score;
 	public Paddle(Pong pong, int paddleNumber) {
 		this.paddleNumber = paddleNumber;
